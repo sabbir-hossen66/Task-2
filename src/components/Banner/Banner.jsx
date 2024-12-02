@@ -23,7 +23,7 @@ const Banner = () => {
             <br />
             WordPress Theme
           </h2>
-          <div className='flex flex-wrap gap-4 mt-2 lg:mt-6 justify-center md:justify-start mb-12'>
+          <div className='flex flex-wrap gap-4 mt-2 lg:mt-6 justify-center md:justify-start mb-16'>
             <StyleButton title="Pre-Build Demos" bgColor="bg-white" />
             <StyleButton title="OnLine Documention" bgColor="bg-white" />
           </div>
