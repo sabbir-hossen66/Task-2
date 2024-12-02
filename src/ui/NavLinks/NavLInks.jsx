@@ -6,10 +6,10 @@ import Button from "../Button/Button";
 const NavLInks = () => {
   let [open, setOpen] = useState(false)
   let links = [
-    { name: "Home", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "About", link: "/" },
-    { name: "Contact", link: "/" }
+    { name: "Home", link: "#" },
+    { name: "Service", link: "#" },
+    { name: "About", link: "#" },
+    { name: "Contact", link: "#" }
   ]
   return (
     <div>
