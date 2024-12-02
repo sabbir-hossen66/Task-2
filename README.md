@@ -45,10 +45,4 @@ Vercel: Deployed the project on Vercel for easy hosting and deployment.
 Contributing
 Feel free to fork the repository, open issues, and submit pull requests. If you have any suggestions or improvements, feel free to contribute.
 
-License
-This project is open-source and available under the MIT License.
 
-csharp
-Copy code
-
-You can copy-paste this `README.md` into your project directory.
