@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'Arial', 'sans-serif'], // Use Roboto as the default font
+      },
       animation: {
         rotateImg: 'rotate 6s linear infinite,',
         marquee: 'marquee 20s linear infinite',

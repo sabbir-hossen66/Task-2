@@ -26,6 +26,7 @@ const Footer = () => {
           Purchase Now <span className="ml-2">→</span>
         </a>
       </div>
+      <p className='text-center text-white mt-6'>© 2024 Digital Creative Studio. All rights reserved.</p>
     </div>
   );
 };

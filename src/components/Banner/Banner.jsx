@@ -10,7 +10,7 @@ import CounterSection from '../../ui/CounterSection/CounterSection';
 
 const Banner = () => {
   return (
-    <div className='container mx-auto px-4 pt-8'>
+    <div className='container mx-auto px-4 pt-24'>
       <div className='flex flex-col md:flex-row justify-between items-center md:items-start min-h-screen'>
 
         {/* Left Side */}

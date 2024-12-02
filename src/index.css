@@ -32,3 +32,18 @@
 .animate-marquee {
   animation: marquee 40s linear infinite; 
 }
+
+/* In src/index.css */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/path-to-your-font/CustomFont.woff2') format('woff2'),
+       url('/path-to-your-font/CustomFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* In src/index.css */
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); /* Google Fonts import */
+  font-family: 'Roboto', sans-serif; /* Apply the font globally */
+}
