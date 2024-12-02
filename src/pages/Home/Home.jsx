@@ -4,6 +4,7 @@ import Banner from '../../components/Banner/Banner';
 import Features from '../../components/Features/Features';
 import Projects from '../../components/Projects/Projects';
 import PreBuild from '../../components/PreBuild/PreBuild';
+import Footer from '../../shared/Footer/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <Features />
       <Projects />
       <PreBuild />
+
+      <Footer />
     </div>
   );
 };

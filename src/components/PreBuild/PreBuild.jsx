@@ -3,7 +3,7 @@ import React from 'react';
 const PreBuild = () => {
   return (
     <div>
-      <div className="bg-indigo-600 py-24">
+      <div className="bg-indigo-500 pt-8">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between px-4 text-center text-white">
           {/* Text Section */}
           <div className="mb-8 lg:mb-0">
