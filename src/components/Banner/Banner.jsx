@@ -3,6 +3,8 @@ import bannerOne from '../../assets/banner1.jpg'
 import bannerTwo from '../../assets/banner2.jpg'
 import bannerThree from '../../assets/banner3.jpg'
 
+import StyleButton from '../../ui/StyleButton/StyleButton';
+
 
 const Banner = () => {
   return (
@@ -19,6 +21,10 @@ const Banner = () => {
             <br />
             WordPress Theme
           </h2>
+          <div className='flex gap-1 mt-6 '>
+            <StyleButton title="Pre-Build Demos" bgColor="bg-white" />
+            <StyleButton title="OnLine Documention" bgColor="bg-white" />
+          </div>
         </div>
 
         {/* Right Side (Images) */}

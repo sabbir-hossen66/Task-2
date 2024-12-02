@@ -4,7 +4,7 @@ import Banner from '../../components/Banner/Banner';
 
 const Home = () => {
   return (
-    <div className='bg-indigo-500 w-full h-100% pt-20'>
+    <div className='bg-indigo-500 w-full vh-screen  pt-20'>
       <Navbar />
       <Banner />
     </div>
