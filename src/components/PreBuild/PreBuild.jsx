@@ -1,8 +1,9 @@
 import React from 'react';
+import ResponsiveTheme from '../ResponsiveTheme/ResponsiveTheme';
 
 const PreBuild = () => {
   return (
-    <div>
+    <>
       <div className="bg-indigo-500 pt-8">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between px-4 text-center text-white">
           {/* Text Section */}
@@ -21,7 +22,8 @@ const PreBuild = () => {
           </div>
         </div>
       </div>
-    </div>
+      <ResponsiveTheme />
+    </>
   );
 };
 
