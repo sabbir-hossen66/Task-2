@@ -7,13 +7,18 @@ export default {
   theme: {
     extend: {
       animation: {
-        rotateImg: 'rotate 6s linear infinite,'
+        rotateImg: 'rotate 6s linear infinite,',
+        marquee: 'marquee 20s linear infinite',
       },
       keyframes: {
         rotate: {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' }
-        }
+        },
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       }
     },
   },

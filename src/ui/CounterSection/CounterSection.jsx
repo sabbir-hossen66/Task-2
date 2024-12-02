@@ -10,11 +10,11 @@ const Counter = ({ start, target }) => {
           clearInterval(interval);
           return prev;
         }
-        return prev + 1; // Increment by 1
+        return prev + 1;
       });
-    }, 50); // Adjust speed as needed
+    }, 50);
 
-    return () => clearInterval(interval); // Cleanup interval on unmount
+    return () => clearInterval(interval);
   }, [target]);
 
   return (
